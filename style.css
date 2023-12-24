@@ -1,0 +1,61 @@
+/* 基本样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+/*logo加圆角*/
+.logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 28px; /* 添加圆角 */
+}
+/* 导航栏样式 */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block; /* 修改为 inline-block，以避免浮动布局的问题 */
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+/* 主页样式 */
+section {
+  padding: 50px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+
+/* 修改footer样式 */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+

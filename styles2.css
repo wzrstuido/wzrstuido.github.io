@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.image {
+    border-radius: 10px;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* 保持图片的宽高比 */
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.app-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.app-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.app-description {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.download-buttons {
+    text-align: center;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* 添加圆角 */
+}
+
+
+.android {
+    background-color: #2196F3; /* Blue */
+}
+
+.apple {
+    background-color: #0xff758a99; /* Blue */
+}
